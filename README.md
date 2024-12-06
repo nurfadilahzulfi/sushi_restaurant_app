@@ -1,8 +1,8 @@
-# sushi_restaurant_app
+# Selamat datang di Sushi Restaurant App - Revolusi Kuliner Sushi dalam Genggaman Anda!
 
-Project ini merupakan project dari mata kuliah Praktikum Pemrograman Mobile
+Aplikasi Sushi Restaurant App menghadirkan pengalaman makan sushi yang lebih mudah, menyenangkan, dan personal. Kami merancang aplikasi ini untuk para pecinta sushi yang ingin menikmati hidangan favorit mereka dengan cara yang lebih cerdas dan nyaman. Aplikasi ini juga merupakan pengembangan dari project akhir mata kuliah Pemrograman Mobile yang berisi dari beberapa mahasiswa kontributor Teknik Informatika 3A Politeknik Negeri Lhokseumwae.
 
-## Anggota Kelompok
+## Contributor
 1. Nur Fadilah Zulfi
 2. Salesya Al Fatila
 3. Muhammad Zahrul Ath Thariq
