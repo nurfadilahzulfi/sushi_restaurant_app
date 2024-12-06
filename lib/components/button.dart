@@ -9,8 +9,24 @@ class MyButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(color: Color.fromARGB(212, 135, 81, 77)),
-      child: Text(text),
+      decoration: BoxDecoration(color: Color.fromARGB(189, 140, 94, 91), 
+      borderRadius: BorderRadius.circular(40)),
+      padding: EdgeInsets.all(20),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          //text
+          Text(text, 
+          style: TextStyle(color: Colors.white),
+          ),
+
+          const SizedBox(width: 10),
+
+          //icon
+          Icon(Icons.arrow_forward, 
+          color: Colors.white,),
+        ],
+      ),
     );
   }
 }
