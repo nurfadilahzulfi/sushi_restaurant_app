@@ -1,6 +1,14 @@
 # sushi_restaurant_app
 
-A new Flutter project.
+Merupakan Project dari mata kuliah Praktikum Pemrograman Mobile
+
+## Anggota Kelompok
+1. Nur Fadilah Zulfi
+2. Salesya Al Fatila
+3. Muhammad Zahrul Ath Thariq
+4. Nibras Al Afif
+5. Putri Alvioli
+6. Urfi Shanda Nasywa
 
 ## Getting Started
 
