@@ -14,6 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: IntroPage(),
+      routes: {
+        '/intropage':(context) => const IntroPage(),
+        '/menupage':(context) => const MenuPage(),
+      },
     );
   }
 }
