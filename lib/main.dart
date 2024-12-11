@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/intro_page.dart';
+import 'pages/menu_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,8 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: IntroPage(),
       routes: {
-        '/intropage':(context) => const IntroPage(),
-        '/menupage':(context) => const MenuPage(),
+        '/intropage': (context) => const IntroPage(),
+        '/menupage': (context) => const MenuPage(),
       },
     );
   }
