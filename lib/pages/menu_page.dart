@@ -35,7 +35,12 @@ class _MenuPageState extends State<MenuPage> {
 
   // navigaete to food item details page
   void navigateToFoodDetails(int index) {
-    Navigator.push(context, MaterialPageRoute(builder: (context) => FoodDetailsPage(),),);  
+    Navigator.push(
+      context, 
+      MaterialPageRoute(
+        builder: (context) => FoodDetailsPage(
+          food: foodMenu[index],
+        ),),);  
   }
 
 
@@ -138,7 +143,7 @@ class _MenuPageState extends State<MenuPage> {
               itemCount: foodMenu.length,
               itemBuilder: (context, index) => FoodTile(
                 food: foodMenu[index],
-                onTap: ,
+                onTap: () => navigateToFoodDetails(index),
               ),
             ),
           ),
