@@ -1,6 +1,14 @@
-# sushi_restaurant_app
+## Selamat datang di Sushi Restaurant App
 
-A new Flutter project.
+Aplikasi Sushi Restaurant App menghadirkan pengalaman makan sushi yang lebih mudah, menyenangkan, dan personal. Kami merancang aplikasi ini untuk para pecinta sushi yang ingin menikmati hidangan favorit mereka dengan cara yang lebih cerdas dan nyaman. Aplikasi ini juga merupakan bagian dari pengembangan project akhir mata kuliah Pemrograman Mobile yang berisi dari beberapa mahasiswa kontributor Teknik Informatika kelas TI-3A Politeknik Negeri Lhokseumawe.
+
+## Contributor
+1. Nur Fadilah Zulfi
+2. Salesya Al Fatila
+3. Muhammad Zahrul Ath Thariq
+4. Nibras Al Afif RM
+5. Putri Alvioli
+6. Urfi Shanda Nasywa
 
 ## Getting Started
 
@@ -14,5 +22,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-zulfi kahim
