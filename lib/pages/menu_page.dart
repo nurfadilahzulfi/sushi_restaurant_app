@@ -1,8 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi_restaurant_app/components/button.dart';
 import 'package:sushi_restaurant_app/components/food_tile.dart';
 import 'package:sushi_restaurant_app/models/food.dart';
 import 'package:sushi_restaurant_app/theme/colors.dart';
+import 'package:sushi_restaurant_app/pages/food_details_page.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({super.key});
