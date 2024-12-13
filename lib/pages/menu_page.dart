@@ -138,7 +138,7 @@ class _MenuPageState extends State<MenuPage> {
               itemCount: foodMenu.length,
               itemBuilder: (context, index) => FoodTile(
                 food: foodMenu[index],
-                onTap: ,
+                onTap: () => navigateToFoodDetails(index),
               ),
             ),
           ),

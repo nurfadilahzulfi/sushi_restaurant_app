@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class FoodDetailsPage extends StatelessWidget {
+class FoodDetailsPage extends StatefulWidget {
   const FoodDetailsPage({super.key});
 
     @override
-    State<FoodDetailsPage> createState() => _FoodDetailsPage();
+    State<FoodDetailsPage> createState() => _FoodDetailsPageState();
   }
 
   class _FoodDetailsPageState extends State<FoodDetailsPage> {
