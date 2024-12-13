@@ -1,8 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi_restaurant_app/components/button.dart';
 import 'package:sushi_restaurant_app/components/food_tile.dart';
 import 'package:sushi_restaurant_app/models/food.dart';
 import 'package:sushi_restaurant_app/theme/colors.dart';
+import 'package:sushi_restaurant_app/pages/food_details_page.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({super.key});
@@ -33,9 +35,15 @@ class _MenuPageState extends State<MenuPage> {
 
   // navigaete to food item details page
   void navigateToFoodDetails(int index) {
-    Navigator.push(context, MaterialPageRoute(builder: (context) => FoodDetailsPage(),),);  
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => FoodDetailsPage(
+          food: foodMenu(index),
+        ),
+      ),
+    );
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -136,7 +144,7 @@ class _MenuPageState extends State<MenuPage> {
               itemCount: foodMenu.length,
               itemBuilder: (context, index) => FoodTile(
                 food: foodMenu[index],
-                onTap: ,
+                onTap: () => navigateToFoodDetails(index),
               ),
             ),
           ),
