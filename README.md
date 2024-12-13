@@ -1,4 +1,4 @@
-# sushi_restaurant_app
+## sushi_restaurant_app
 
 Merupakan Project dari mata kuliah Praktikum Pemrograman Mobile
 
