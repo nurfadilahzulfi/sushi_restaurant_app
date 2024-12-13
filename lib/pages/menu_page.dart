@@ -36,13 +36,14 @@ class _MenuPageState extends State<MenuPage> {
   // navigaete to food item details page
   void navigateToFoodDetails(int index) {
     Navigator.push(
-      context, 
+      context,
       MaterialPageRoute(
         builder: (context) => FoodDetailsPage(
           food: foodMenu[index],
-        ),),);  
+        ),
+      ),
+    );
   }
-
 
   @override
   Widget build(BuildContext context) {
